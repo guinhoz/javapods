@@ -8,4 +8,4 @@ spec:
     app: lable-pod-java-qa
   ports:
     - port: 8081
-      nodePort: 8081 #até 32767
+      targetPort: 8081 #até 32767
