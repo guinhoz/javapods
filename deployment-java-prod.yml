@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: container-java-prod
-          image: alexandreponte/validadorcpfjavagoku
+          image: guinhoz/validador_cpf_java
           ports:
             - containerPort: 8081
   replicas: 1
